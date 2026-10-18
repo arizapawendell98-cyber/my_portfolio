@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+
+    <style>
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f5efe6;
+        }
+
+        /* Navigation */
+
+        nav {
+            background-color: #6f4e37;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        nav a:hover {
+            color: #d4a373;
+        }
+
+        /* Home */
+
+        #home {
+            background-color: #8b6f5a;
+            color: #ffffff;
+            text-align: center;
+            padding: 70px 20px;
+            position: relative;
+        }
+
+        #home h1 {
+            font-size: 40px;
+        }
+
+        #home span {
+            color: #f3d5b5;
+        }
+
+        .profile {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        /* Logo */
+
+        .logo {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            border-radius: 50%;
+        }
+
+        /* Sections */
+
+        section {
+            padding: 50px 10%;
+        }
+
+        .title {
+            text-align: center;
+            color: #6f4e37;
+        }
+
+        /* About */
+
+        .about {
+            background-color: #fffdf8;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        /* Skills */
+
+        .skills {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .skill {
+            background-color: #fffdf8;
+            width: 150px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .skill:hover {
+            background-color: #f1e0c5;
+        }
+
+        /* Projects */
+
+        .projects {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .project {
+            background-color: #fffdf8;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .project img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        /* Achievements */
+
+        .achievement {
+            background-color: #fffdf8;
+            padding: 20px;
+            margin: 10px;
+            border-left: 5px solid #c08a5c;
+        }
+
+        /* Goals */
+
+        .goals {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .goal {
+            background-color: #6f4e37;
+            color: #ffffff;
+            width: 200px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Contact */
+
+        .contact {
+            background-color: #fffdf8;
+            padding: 25px;
+            text-align: center;
+            border-radius: 50px;
+        }
+
+        /* Footer */
+
+        footer {
+            background-color: #3e2723;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav>
+
+        <a href="#home">Home</a>
+
+        <a href="#about">About</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#achievements">Achievements</a>
+
+        <a href="#goals">Goals</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <!-- Home -->
+
+    <section id="home">
+
+        <img src="DCSA.jpg" class="logo">
+
+        <img src="pfp.jpg" class="profile">
+
+        <h1>Hello, I'm <span>Wendell Arizapa</span></h1>
+
+        <h3>I am an ACT student who enjoys exploring new things and learning from my experiences.</h3>
+
+        <p>
+            Be Yourself, Keep Learning, Keep Growing.
+        </p>
+
+    </section>
+
+
+    <!-- About -->
+
+    <section id="about">
+
+        <h2 class="title">About Me</h2>
+
+        <div class="about">
+
+            <p>
+                Hello! I am Wendell Arizapa, an ACT student
+                interested in technology and programming. I enjoy learning about computers,
+                and improving my technical skills.
+            </p>
+
+            <p>
+                <b>School:</b> DATAMEX COLLEGE OF SAINT ADELINE
+            </p>
+
+            <p>
+                <b>Course:</b> ACT - Associate in Computer Technology
+            </p>
+
+            <p>
+                <b>Hobbies:</b> Gaming, Music, and Watching Movies
+            </p>
+
+            <p>
+                <b>Interest:</b> Technology and Programming
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+
+    <section id="skills">
+
+        <h2 class="title">My Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill">
+
+                <h3>Time Management</h3>
+
+                <p>
+                    I can manage my time between school and personal activities.
+                </p>
+
+            </div>
+
+
+            <div class="skill">
+
+                <h3>Communication</h3>
+
+                <p>
+                    I can communicate clearly and share my ideas to others.
+                </p>
+
+            </div>
+
+
+            <div class="skill">
+
+                <h3>Teamwork</h3>
+
+                <p>
+                    I can work well with other people and contribute to team.
+                </p>
+
+            </div>
+
+
+            <div class="skill">
+
+                <h3>Problem Solving</h3>
+
+                <p>
+                    I can find simple simple solutions when i face problems or challenges.
+                </p>
+
+            </div>
+
+
+            <div class="skill">
+
+                <h3>Patience</h3>
+
+                <p>
+                    I can stay calm and patient when dealing with difficult situations.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+
+    <section id="projects">
+
+        <h2 class="title">My Projects</h2>
+
+        <div class="projects">
+
+
+            <div class="project">
+
+                <img src="IDLE.jpg">
+
+                <h3>Room Booking System</h3>
+
+                <p>
+                    A system that allows users to book and manage
+                    room reservations in an organized way.
+                </p>
+
+                <p>
+                    <b>Technology:</b> Idle (Python 3.14)
+                </p>
+
+            </div>
+
+
+            <div class="project">
+
+                <img src="microsoftv.b.jpg">
+
+                <h3>Payroll System</h3>
+
+                <p>
+                    A system that helps manage employee information, attendance, salary, and payroll records.
+                </p>
+
+                <p>
+                    <b>Technology:</b> Microsoft Visual Studio 2010
+                </p>
+
+            </div>
+
+
+            <div class="project">
+
+                <img src="portfolio1.jpg">
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A website that shows my information,
+                    skills, projects, and goals.
+                </p>
+
+                <p>
+                    <b>Technology:</b> HTML and CSS
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Achievements -->
+
+    <section id="achievements">
+
+        <h2 class="title">My Achievements</h2>
+
+        <div class="achievement">
+
+            <h3>New Experiences</h3>
+
+            <p>
+                Gained new experiences through differnt activities and projects.
+            </p>
+
+        </div>
+
+
+        <div class="achievement">
+
+            <h3>Learning New Skills</h3>
+
+            <p>
+                Learned basic HTML, CSS, programming,
+                and database concepts.
+            </p>
+
+        </div>
+
+
+        <div class="achievement">
+
+            <h3>Personal Improvement</h3>
+
+            <p>
+                Improved my technical and
+                problem-solving skills.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Goals -->
+
+    <section id="goals">
+
+        <h2 class="title">My Future Goals</h2>
+
+        <div class="goals">
+
+            <div class="goal">
+
+                <h3>Goal 1</h3>
+
+                <p>
+                    Improve my programming skills.
+                </p>
+
+            </div>
+
+
+            <div class="goal">
+
+                <h3>Goal 2</h3>
+
+                <p>
+                    Finish my college studies.
+                </p>
+
+            </div>
+
+
+            <div class="goal">
+
+                <h3>Goal 3</h3>
+
+                <p>
+                    I want to become successful in life.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+
+    <section id="contact">
+
+        <h2 class="title">Contact Me</h2>
+
+        <div class="contact">
+
+            <p>
+                <b>Email:</b>
+                <a href="mailto:arizapawendell98@email.com">
+                    arizapawendell98@email.com
+                </a>
+            </p>
+
+            <p>
+                <b>Facebook:</b>
+                <a href="https://www.facebook.com/share/1HnSznUX2c/">
+                    https://www.facebook.com/share/1HnSznUX2c/
+                </a>
+            </p>
+
+            <p>
+                <b>Instagram:</b>
+                <a href="https://www.instagram.com/xaidelll/">
+                    @xaidelll
+                </a>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 Wendell Arizapa - My Personal Portfolio</p>
+
+    </footer>
+
+
+</body>
+
+</html>
